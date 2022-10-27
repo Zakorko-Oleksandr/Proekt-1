@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    list-style: none;
+}
+.container {
+    max-width: 1250px;
+    margin: 0 auto;    
+}
+
+.flex{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_ul{
+    display: flex;
+    gap: 52px;
+}
+
+
+.header{
+    margin: 13px auto 15px;
+    background: #f7f6f1;
+}
+
+.header-link {
+    font-size: 14px;
+    line-height: 14px;
+    color: #1C1C1C;
+    text-decoration: none;
+}   
+
+.button {
+    width: 157px;
+    height: 40px;
+    background: #6F2CFF;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.button:hover{
+    background: #f33ec6;
+    transition: 1;
+    cursor: pointer;
+}
+
+.main {
+    background: #F6BED9;
+    padding: 58px 0;
+
+}
+
+.main_title{
+    max-width: 470px;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.main_tstle-fiolet{
+    color: #6F2DFF;
+}
+
+.main_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    max-width: 438px;
+    margin: 18px 0px;
+    
+}
+
+.mail_text-bold{
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.main_input{
+    height: 45px;
+    width: 268px;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px;
+    padding-left: 26px;
+
+}
+.main_input::placeholder{
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.main_input:focus{
+    outline: none;
+}
+
+.main_button{
+    width: 187px;
+    height: 45px;
+    margin-left: 9px;
+}
+
+
+
+
+
+.footer_ul{
+    display: flex;
+    gap: 74px;
+}
+
+.footer{
+    background: #20003c;
+    padding: 58px 0;
+    }
+
+.footer-link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;   
+    color: #FFFFFF;
+    text-decoration: none;
+}
